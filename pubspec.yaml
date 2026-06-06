@@ -1,0 +1,80 @@
+name: wajhat_aldeen
+description: واجهة الدين الحق - تطبيق إسلامي متكامل
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  
+  # Location & Prayer Times
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  adhan: ^1.1.4
+  
+  # Database
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  
+  # Background Services
+  flutter_foreground_task: ^8.0.1
+  workmanager: ^0.5.2
+  
+  # Permissions
+  permission_handler: ^11.3.0
+  
+  # Device Info
+  battery_plus: ^6.0.1
+  device_info_plus: ^10.1.0
+  
+  # Hijri Calendar
+  hijri: ^2.0.1
+  
+  # Timezone
+  timezone: ^0.9.4
+  flutter_timezone: ^2.0.0
+  
+  # UI
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  
+  # Home Widget
+  home_widget: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/data/quran.json
+    - assets/data/tafseer.json
+    - assets/data/hisnul_muslim.json
+    - assets/fonts/
+  
+  fonts:
+    - family: KFGQPCUthmanTahaNaskh
+      fonts:
+        - asset: assets/fonts/UthmanTN1B-Regular.ttf
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
+        - asset: assets/fonts/Amiri-Bold.ttf
+          weight: 700
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+        - asset: assets/fonts/Tajawal-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
