@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">واجهة الدين الحق</string>
+    <string name="widget_description">واجهة إسلامية متكاملة تعرض الصلوات والآيات والأذكار</string>
+    <string name="notification_channel_id">wajhat_aldeen_channel</string>
+    <string name="notification_channel_name">واجهة الدين الحق</string>
+</resources>
